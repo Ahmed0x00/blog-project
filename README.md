@@ -8,20 +8,14 @@ This guide will walk you through downloading, setting up, and running both the b
 
 ## 🚀 Quick Start Guide (Windows 11)
 
-### 1. Prerequisites
-Before starting, make sure you have the following installed on your Windows 11 computer:
-1. **Git:** To clone the repository ([Download Git](https://git-scm.com/downloads)).
-2. **Python 3.9+:** ([Download Python](https://www.python.org/downloads/)).
-   * **⚠️ IMPORTANT:** When installing Python, make sure to check the box that says **"Add python.exe to PATH"** at the bottom of the installer window!
-
-### 2. Download the Project
+### 1. Download the Project
 Open a terminal (Command Prompt or PowerShell) and run:
 ```cmd
 git clone https://github.com/Ahmed0x00/blog-project.git
 cd blog-project
 ```
 
-### 3. Start the Backend API (FastAPI)
+### 2. Start the Backend API (FastAPI)
 You need to start the backend server so the frontend can retrieve data.
 
 Open a terminal in the `blog-project` folder and run the following commands one by one:
@@ -34,7 +28,7 @@ uvicorn app.main:app --reload
 ```
 *Leave this terminal window open! The backend must stay running.*
 
-### 4. Start the Frontend (UI)
+### 3. Start the Frontend (UI)
 Now you need to start the frontend server. 
 
 **Open a NEW terminal window** (do not close the backend one), navigate to the project folder again, and run:
@@ -44,7 +38,7 @@ python -m http.server 3000
 ```
 *Leave this terminal open too.*
 
-### 5. View the Website
+### 4. View the Website
 Open your web browser (Chrome, Edge, etc.) and go to:
 👉 **[http://127.0.0.1:3000](http://127.0.0.1:3000)**
 
