@@ -72,5 +72,3 @@ The project comes with a pre-configured database (`test.db`) containing differen
 * **Dynamic Content:** Nested comments, pagination, and real-time form validation.
 * **Admin Dashboard:** Manage users, change roles, moderate posts, and view system health.
 
----
-*Good luck with your assignment!* 💯
